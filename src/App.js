@@ -1,12 +1,17 @@
 import React from 'react';
 import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import FeaturesSection from './components/FeaturesSection';
+import ServicesSection from './components/ServicesSection';
 
 
-function App(){
+function App(){ 
   return (
     <div className='App'>
       <Header />
-      {/* Aqui vamos adicionar as outras sessões depois */}
+      <HeroSection />
+      <FeaturesSection />
+      <ServicesSection />
     </div>
   );
 }
