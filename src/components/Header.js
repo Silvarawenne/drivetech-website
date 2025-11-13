@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 
 function Header() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+        <Navbar bg="dark" variant="dark" expand="lg" sticky="top" style={{zIndex: 1030}}>
       <Container>
         <Navbar.Brand href="#home">
           <strong>DriveTech</strong>
