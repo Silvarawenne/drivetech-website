@@ -4,9 +4,9 @@ import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import ServicesSection from './components/ServicesSection';
 import InstructorsSection from './components/InstructorsSection';
+import ListaCursos from './components/ListaCursos';
 import ContactSection from './components/ContacSection';
 import Footer from './components/Footer';
-import ListaCursos from './components/ListaCursos';
 
 
 function App(){ 
@@ -17,9 +17,9 @@ function App(){
       <FeaturesSection />
       <ServicesSection />
       <InstructorsSection />
+      <ListaCursos />
       <ContactSection />
       <Footer />  
-      <ListaCursos />
     </div>
   );
 }
