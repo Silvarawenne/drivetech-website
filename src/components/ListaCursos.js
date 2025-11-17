@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Container, Row, Col, Card, Spinner } from 'react-bootstrap';
 
 function ListaCursos(){
     const [cursos, setCursos] = useState([]);
