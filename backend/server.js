@@ -2,15 +2,15 @@
 
 const express = require('express');
 const cors = require('cors');
-const mongoose = require('mongoose'); // 1. Importa Mongoose
-require('dotenv').config(); // 2. Importa e configura o dotenv
+const mongoose = require('mongoose');
+require('dotenv').config();
 
 // Importar Rotas e Modelos
 const cursosRouter = require('./routes/cursos');
-const Mensagem = require('./models/Mensagem'); // 3. Importa nosso Modelo
+const Mensagem = require('./Models/Mensagem'); /
 
 const app = express();
-const PORT = process.env.PORT || 5000; // Usar a porta do .env ou 5000
+const PORT = process.env.PORT || 5000;
 
 // Middlewares
 app.use(cors());
