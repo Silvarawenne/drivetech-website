@@ -7,7 +7,7 @@ function ListaCursos(){
     useEffect(() =>{
         const fetchCursos = async () => {
             try{
-                const response = await fetch('http://localhost:5000/api/cursos');
+                const response = await fetch('https://drivetech-api.onrender.com/api/cursos');
                 const data = await response.json();
                 setCursos(data); // Salva os dados no estado
                 setLoading(false); // Termina o carregamento
