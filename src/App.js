@@ -6,6 +6,7 @@ import ServicesSection from './components/ServicesSection';
 import InstructorsSection from './components/InstructorsSection';
 import ContactSection from './components/ContacSection';
 import Footer from './components/Footer';
+import ListaCursos from './components/ListaCursos';
 
 
 function App(){ 
@@ -17,7 +18,8 @@ function App(){
       <ServicesSection />
       <InstructorsSection />
       <ContactSection />
-      <Footer />
+      <Footer />  
+      <ListaCursos />
     </div>
   );
 }
