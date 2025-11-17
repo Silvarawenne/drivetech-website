@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Importar Rotas e Modelos
 const cursosRouter = require('./routes/cursos');
-const Mensagem = require('./Models/Mensagem'); /
+const Mensagem = require('./Models/Mensagem');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
